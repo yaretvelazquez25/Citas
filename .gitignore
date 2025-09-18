@@ -3,6 +3,11 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
+db/admins.json
+db/citas.json
+db/doctores.json
+db/pacientes.json
+
 ### Eclipse ###
 .apt_generated
 .classpath
