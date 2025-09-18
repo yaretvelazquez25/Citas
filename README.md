@@ -1,7 +1,7 @@
 # Sistema de Gestión de Citas Médicas
  Este es un sistema de consola simple, desarrollado en Java, para la administración de citas en un consultorio médico. Permite gestionar doctores, pacientes y citas, con control de acceso para administradores. La información se almacena de forma persistente en archivos JSON.
 
-Características ✨
+## Características 
 Gestión de Doctores: Dar de alta y listar doctores con su especialidad.
 
 Gestión de Pacientes: Registrar y listar pacientes del consultorio.
