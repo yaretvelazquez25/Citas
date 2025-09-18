@@ -1,37 +1,62 @@
-# Sistema de Gestión de Citas Médicas
- Este es un sistema de consola simple, desarrollado en Java, para la administración de citas en un consultorio médico. Permite gestionar doctores, pacientes y citas, con control de acceso para administradores. La información se almacena de forma persistente en archivos JSON.
+# 🩺 Sistema de Gestión de Citas Médicas
 
-## Características 
-Gestión de Doctores: Dar de alta y listar doctores con su especialidad.
+Este es un sistema de consola desarrollado en **Java**, diseñado para administrar citas en un consultorio médico. Permite gestionar doctores, pacientes y citas, con control de acceso para administradores. La información se guarda de forma persistente en archivos **JSON**.
 
-Gestión de Pacientes: Registrar y listar pacientes del consultorio.
+---
 
-Gestión de Citas: Crear citas asignando un doctor y un paciente, con fecha, hora y motivo.
+## ✨ Características
 
-Persistencia de Datos: Toda la información se guarda en archivos .json en una carpeta db.
+- 👨‍⚕️ **Gestión de Doctores**  
+  Alta y listado de doctores con su especialidad.
 
-Control de Acceso: Sistema de login para administradores con usuario y contraseña
-##Uso del Programa
-Inicio de Sesión:
-El programa te pedirá credenciales. La primera vez que lo ejecutes, utiliza los datos por defecto:
+- 🧑‍🤝‍🧑 **Gestión de Pacientes**  
+  Registro y listado de pacientes del consultorio.
 
-Usuario: admin
+- 📅 **Gestión de Citas**  
+  Creación de citas asignando doctor, paciente, fecha, hora y motivo.
 
-Contraseña: 1234
+- 💾 **Persistencia de Datos**  
+  Toda la información se guarda en archivos `.json` dentro de la carpeta `db`.
 
-Navegación por el Menú:
-Tras iniciar sesión, verás un menú con las siguientes opciones:
+- 🔐 **Control de Acceso**  
+  Sistema de login para administradores con usuario y contraseña.
 
-Dar de alta un Doctor: Registra un nuevo profesional médico.
+---
 
-Dar de alta un Paciente: Registra un nuevo paciente.
+## ▶️ Uso del Programa
 
-Crear una Cita: Agenda una nueva cita, asociando un doctor y un paciente existentes.
+### 🔓 Inicio de Sesión
 
-Ver todas las Citas: Muestra un listado detallado de todas las citas agendadas, ordenadas por fecha.
+Al iniciar el programa, se solicitarán credenciales. En la primera ejecución, utiliza los datos por defecto:
 
-Salir: Termina la ejecución del programa.
+- **Usuario:** `admin`  
+- **Contraseña:** `1234`
 
-##Créditos
-Este proyecto fue creado por:
-Yaret Velazquez
+---
+
+### 📋 Navegación por el Menú
+
+Una vez dentro, tendrás acceso a las siguientes opciones:
+
+1. ➕ **Dar de alta un Doctor**  
+   Registra un nuevo profesional médico.
+
+2. 🆕 **Dar de alta un Paciente**  
+   Registra un nuevo paciente.
+
+3. 📆 **Crear una Cita**  
+   Agenda una cita entre un doctor y un paciente existentes.
+
+4. 📖 **Ver todas las Citas**  
+   Muestra un listado detallado de todas las citas, ordenadas por fecha.
+
+5. ❌ **Salir**  
+   Finaliza la ejecución del programa.
+
+---
+
+## 🙌 Créditos
+
+Este proyecto fue creado por:  
+**Yaret Velazquez**
+
